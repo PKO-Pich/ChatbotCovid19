@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ChatbotCovid19/static/css/main.44f38d06.chunk.css",
+    "main.js": "/ChatbotCovid19/static/js/main.72ce1031.chunk.js",
+    "main.js.map": "/ChatbotCovid19/static/js/main.72ce1031.chunk.js.map",
+    "runtime-main.js": "/ChatbotCovid19/static/js/runtime-main.2bcdbd65.js",
+    "runtime-main.js.map": "/ChatbotCovid19/static/js/runtime-main.2bcdbd65.js.map",
+    "static/js/2.2b127ee7.chunk.js": "/ChatbotCovid19/static/js/2.2b127ee7.chunk.js",
+    "static/js/2.2b127ee7.chunk.js.map": "/ChatbotCovid19/static/js/2.2b127ee7.chunk.js.map",
+    "static/js/3.580f7548.chunk.js": "/ChatbotCovid19/static/js/3.580f7548.chunk.js",
+    "static/js/3.580f7548.chunk.js.map": "/ChatbotCovid19/static/js/3.580f7548.chunk.js.map",
+    "index.html": "/ChatbotCovid19/index.html",
+    "static/css/main.44f38d06.chunk.css.map": "/ChatbotCovid19/static/css/main.44f38d06.chunk.css.map",
+    "static/js/2.2b127ee7.chunk.js.LICENSE.txt": "/ChatbotCovid19/static/js/2.2b127ee7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bcdbd65.js",
+    "static/js/2.2b127ee7.chunk.js",
+    "static/css/main.44f38d06.chunk.css",
+    "static/js/main.72ce1031.chunk.js"
+  ]
+}
