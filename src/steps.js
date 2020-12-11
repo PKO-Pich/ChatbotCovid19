@@ -7,8 +7,10 @@ import More from "./More";
 const steps = [
   {
     id: "1",
+    //ระบุข้อความ
     message:
       "สวัสดีค่ะ แชทบอทยินดีต้อนรับค่ะ คุณสามารถตรวจสอบอาการโควิด19 ได้หลังจากตอบแบบสอบถามค่ะ",
+    //trigger สั่งให้ บรรทัดไหนทำต่อ ระบุจาก id
     trigger: "2",
   },
   {
@@ -18,6 +20,7 @@ const steps = [
   },
   {
     id: "question1",
+    //ตัวเลือก ปุมกด
     options: [
       { value: "yes", label: "ใช่", trigger: "4" },
       { value: "no", label: "ไม่", trigger: "4" },
@@ -25,6 +28,7 @@ const steps = [
   },
   {
     id: "4",
+
     message:
       "คุณมีอาการเจ็บคอ หรือมีน้ำมูกไหม (มีอาการหลายวัน,เสมหะอาจมีปนเลือด)",
     trigger: "question2",
@@ -125,13 +129,16 @@ const steps = [
     ],
   },
   {
-    id: 'more',
+    id: "more",
+    //ให้ผู้ใช้พิมพ์
     user: true,
-    trigger: 'answer',
+    trigger: "answer",
   },
   {
     id: "answer",
-    component: <More/>,
+    //component เรียกหน้าอื่นมา
+    component: <More />,
+    //asMessage ส่งข้อมูลไปยังหน้าที่จะเรียก
     asMessage: true,
     trigger: "after",
   },
