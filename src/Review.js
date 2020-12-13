@@ -64,21 +64,23 @@ class Review extends Component {
       question8.value == "yes"
     ) {
       txt = "คุณเป็นโควิด19";
-    }else if(
-        question1.value == "yes" &&
-    question2.value == "yes" &&
-    question6.value == "yes" &&
-    question7.value == "yes"
-    ){
-        txt='คุณเป็นไข้หวัดทั่วไป';
-    }else if (
-        question1.value == "yes" &&
-        question2.value == "yes" &&
-        question3.value == "yes" &&
-        question5.value == "yes" &&
-        question6.value == "yes" 
-    ){
-        txt='คุณเป็นไข้เลือดออก';
+    } else if (
+      question1.value == "yes" &&
+      question2.value == "yes" &&
+      question6.value == "yes" &&
+      question7.value == "yes"
+    ) {
+      txt = "คุณเป็นไข้หวัดทั่วไป";
+    } else if (
+      question1.value == "yes" &&
+      question2.value == "yes" &&
+      question3.value == "yes" &&
+      question5.value == "yes" &&
+      question6.value == "yes"
+    ) {
+      txt = "คุณเป็นไข้เลือดออก";
+    } else {
+      txt = "คุณไม่ได้เป็นโควิด19";
     }
     return (
       <div style={{ width: "100%" }}>

@@ -1,7 +1,7 @@
 {
   "name": "chatbot",
   "version": "0.1.0",
-  "homepage": "https://PKO-Pich.github.io/chatbot-covid19/",
+  "homepage": "https://PKO-Pich.github.io/ChatbotCovid19/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

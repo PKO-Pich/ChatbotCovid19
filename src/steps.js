@@ -125,7 +125,7 @@ const steps = [
       { value: "2", label: "โรงพยาบาลที่รับตรวจโควิด", trigger: "other2" },
       { value: "3", label: "การรักษาโควิด", trigger: "other3" },
       { value: "4", label: "สอบถามเพิ่มเติม", trigger: "more" },
-      { value: "5", label: "กล้บไปทำแบบทดสอบ", trigger: "1" },
+      { value: "5", label: "กลับไปทำแบบทดสอบ", trigger: "1" },
     ],
   },
   {

@@ -19,7 +19,7 @@ class App extends Component {
 
     return (
       <ThemeProvider theme={theme}>
-        <ChatBot width={500} steps={steps} />
+        <ChatBot width={800} steps={steps} />
       </ThemeProvider>
     );
   }
